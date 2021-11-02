@@ -1,0 +1,72 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{background-image: linear-gradient( rgb(255, 60, 0), rgb(255, 238, 0)) ;
+    height: 650px;
+    }
+h1{
+    text-align: center;
+    color: blanchedalmond;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Russo One', sans-serif;
+  text-decoration: underline;
+}
+p{
+    color: blanchedalmond;
+}
+
+h3{
+    color: blanchedalmond;
+}
+    
+    
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    column-gap: 20px;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center; 
+    grid-template-areas: 
+    "tyc sn"
+    "info info2"
+    ;
+
+    
+}
+.g1{
+    
+    grid-area: tyc;
+    
+}
+
+
+.g2{
+    
+    grid-area: info;
+}
+
+.g3{
+
+grid-area: sn;
+}
+
+.g4{
+   
+    grid-area: info2;
+}
+  
+
+
+

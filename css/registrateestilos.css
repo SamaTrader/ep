@@ -1,0 +1,41 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{background-image: linear-gradient( rgb(255, 60, 0), rgb(255, 238, 0)) ;
+  height: 650px;
+  }
+h1{
+    text-align: center;
+    color: blanchedalmond;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Russo One', sans-serif;
+  text-decoration: underline;
+}
+div{
+  text-align: left;
+  
+  color: blanchedalmond;
+}
+
+
+input{
+ 
+  color: blanchedalmond;
+  }
+
+ 
+
+label{
+  color: blanchedalmond;
+  }
+
+p{
+  color: blanchedalmond;
+}

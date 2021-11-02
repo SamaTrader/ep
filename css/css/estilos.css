@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#11000a), to(#5f015f));
+  background-image: linear-gradient(#11000a, #5f015f);
+}
+
+.header-index {
+  color: white;
+}
+
+.header-index .header-index__h1 {
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: 'Russo One', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.header-index .header-index__h1 .header-index__h4 {
+  text-align: center;
+}
+
+.main-index {
+  display: -ms-grid;
+  display: grid;
+  width: 1348px;
+  height: 800px;
+}
+
+.btn-close text-reset
+.offcanvas {
+  background-color: #240404;
+  color: beige;
+}
+
+.sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  margin: 1px 1px 1px 1px;
+  border: solid 1px black;
+  line-height: 1.6;
+  border-radius: 10px;
+  background-color: #1a0318;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+}
+
+.s4ec:hover {
+  -webkit-transform: scale(135%, 135%);
+          transform: scale(135%, 135%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section1-index {
+  padding-top: 10px;
+  overflow-x: scroll;
+}
+
+.section1-index:hofver {
+  -webkit-transform: scale(135%, 135%) translate(200px, -15px);
+          transform: scale(135%, 135%) translate(200px, -15px);
+}
+
+.section2-index {
+  line-height: 0.9;
+  padding-top: 10px;
+}
+
+.section3-index {
+  padding-left: 10px;
+}
+
+.section4-index {
+  text-align: center;
+}
+
+.section4-index:hrover {
+  -webkit-transform: scale(135%, 135%) translate(-200px, -15px);
+          transform: scale(135%, 135%) translate(-200px, -15px);
+}
+
+.section5-index {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    display: inline-block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  main {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
