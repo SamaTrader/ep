@@ -47,7 +47,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow-x: scroll;
   margin: 1px 1px 1px 1px;
   border: solid 1px black;
   line-height: 1.6;
