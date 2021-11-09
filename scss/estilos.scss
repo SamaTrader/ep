@@ -134,23 +134,19 @@ background-color: rgb(40, 2, 48);
 
 @media only screen and (max-width: 480px) {
   
-  main{
-    display: inline-block;
-    justify-content: start;
-      
-    align-items: stretch;
-      
+ .main-index{
+    display: flex;
+    
+    
    }
  }
   
-@media only screen and (min-width: 767px)   {
+@media only screen and (min-width: 767px) and (max-width: 1020px)  {
     
-  main{
+  .main-index{
       
+    display: flex;
     
-    justify-content: start;
-    align-items: stretch;
-      
   }
 }
 
