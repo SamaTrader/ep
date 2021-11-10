@@ -49,9 +49,16 @@ carousel-item{
 
 .main-index{
   display: grid;
-  width: 1348px;
-  height: 800px;
-  padding-top: 24vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "s1"
+  "s2"
+  "s3";
+
+  
+  
+ 
   
   
 
@@ -91,25 +98,27 @@ background-color: rgb(40, 2, 48);
   transition: 1s;
   
 }
-
-  .section1-index{
-    display: flex;
-    padding-top: 10px;
-   
-    
-  }
-
-  .section2-index{ line-height: 0.9;
-    padding-top: 10px;
+ .section1-index{ line-height: 0.9;
+    padding-top: 24vh;
+    grid-area: "s1";
    
    
     
     
     
     }
+  .section2-index{
+    display: flex;
+    padding-top: 10px;
+   grid-area: "s2";
+    
+  }
+
+ 
   
   .section3-index{
     padding-left: 10px;
+    grid-area: "s3";
   }
 
   .section4-index{
@@ -137,7 +146,7 @@ background-color: rgb(40, 2, 48);
  .main-index{
     display: flex;
     
-    
+
    }
  }
   
@@ -149,4 +158,7 @@ background-color: rgb(40, 2, 48);
     
   }
 }
+
+
+
 

@@ -56,9 +56,11 @@ carousel-item {
 .main-index {
   display: -ms-grid;
   display: grid;
-  width: 1348px;
-  height: 800px;
-  padding-top: 24vh;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+      grid-template-areas: "s1" "s2" "s3";
 }
 
 .offcanvas-header {
@@ -101,19 +103,22 @@ carousel-item {
 }
 
 .section1-index {
+  line-height: 0.9;
+  padding-top: 24vh;
+  grid-area: "s1";
+}
+
+.section2-index {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 10px;
-}
-
-.section2-index {
-  line-height: 0.9;
-  padding-top: 10px;
+  grid-area: "s2";
 }
 
 .section3-index {
   padding-left: 10px;
+  grid-area: "s3";
 }
 
 .section4-index {

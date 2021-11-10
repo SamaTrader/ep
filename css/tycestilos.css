@@ -48,24 +48,24 @@ h3{
 }
 .g1{
     
-    grid-area: tyc;
+    grid-area: "tyc";
     
 }
 
 
 .g2{
     
-    grid-area: info;
+    grid-area: "info";
 }
 
 .g3{
 
-grid-area: sn;
+grid-area: "sn";
 }
 
 .g4{
    
-    grid-area: info2;
+    grid-area: "info2";
 }
   
 
