@@ -12,24 +12,35 @@ img{
   }
 
 
+.carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 400vh;
+  text-align: start;
+}
 
-
-
+.carousel-inner{
+ 
+  width: 80%;
+}
 .carousel-item.active{
-display: flex;
-padding-left: 20vmax;
-align-items: center;
-}
-carousel-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  display: inline-block;
+
 }
+
 .header-index{
   color: rgb(255, 255, 255);
-   position: fixed;
+   position: relative;
   width: 100%;
   background: rgb(38, 1, 30);
   display: block;
+  text-align: center;
   
   .header-index__h1{
     letter-spacing: 4px;
@@ -39,31 +50,12 @@ carousel-item{
     font-size: 50px;
     font-family: 'Russo One', sans-serif;
     text-decoration: underline;
-    text-align: center;
-    .header-index__h4{
-      text-align: center;
-     
-    }
+    
+   
   }
 }
 
-.main-index{
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 100%;
-  grid-template-areas: 
-  "s1"
-  "s2"
-  "s3";
 
-  
-  
- 
-  
-  
-
-  
-}
 .offcanvas-header{
 background-color: rgb(40, 2, 48);
 }
@@ -74,17 +66,24 @@ background-color: rgb(40, 2, 48);
 }
 .offcanvas-body2{
   height: 1vh;
+  background-color: rgb(40, 2, 48);
+  
 }
-.after{
-  width: 10%;
- 
-   
-  }
-
-
+.textarea{
+  background-color: rgb(40, 2, 48);
+  color: white;
+}
+.creador{
+  background-image: url(/img/fiesta2.jpg);
+  background-repeat: no-repeat;
+ background-position-y: center;
+ background-size: cover;
+  text-align: start;
+  padding-left: 3vh;
+}
 .sec{
-  display: flex;
-
+ 
+  display: block;
   margin: 1px 1px 1px 1px;
   border: solid 1px rgb(0, 0, 0);
   line-height: 1.6;
@@ -99,22 +98,28 @@ background-color: rgb(40, 2, 48);
   
 }
  .section1-index{ line-height: 0.9;
-    padding-top: 24vh;
-    grid-area: "s1";
+    
+    
    
    
     
     
     
     }
+
+  
+    
   .section2-index{
-    display: flex;
+   
     padding-top: 10px;
    grid-area: "s2";
     
   }
 
- 
+ .section2b-index{
+   grid-area: "s2b";
+
+ }
   
   .section3-index{
     padding-left: 10px;
@@ -129,8 +134,8 @@ background-color: rgb(40, 2, 48);
   }
 
   .section5-index{
-   
-  padding-left: 10px;
+  
+  padding-left: 100px;
   text-transform: uppercase;
   }
 
@@ -156,9 +161,46 @@ background-color: rgb(40, 2, 48);
       
     display: flex;
     
+
   }
+
 }
 
 
 
+  .card{
+      background-color: rgb(46, 2, 46);
+      width: 90%;
+      
+      
+     }
+.joda :hover{
+  transform: scale(135%, 135%);
+}
+.info1{
+  display: flex;
+}
+.after1{
+  width: 20%;
+}
+.after1:hover{
+  transform: scale(1.5);
+  transition: 1s;
+  
 
+}
+
+.data{
+  width: 30%;
+  height: 25vh;
+}
+.after{
+  width: 30%;
+  height: 25vh;
+}
+
+
+
+.carousel-control-prev{
+  padding-top: 16vh;
+}
