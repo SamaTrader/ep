@@ -1,0 +1,10 @@
+.header-index{
+    @include header(); 
+    
+    .header-index__h1{
+      letter-spacing: 4px;
+     
+      
+     
+    }
+  }

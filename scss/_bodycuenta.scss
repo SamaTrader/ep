@@ -1,0 +1,60 @@
+
+    
+
+.bodycuenta{
+   
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+   
+ background-size: cover;
+}
+
+.main-cuenta{
+    @include center();
+    &__div{
+        color: white;
+        margin-top: 8vh;
+        background-color: $bg_medio;
+        @include center();
+        border-radius: 10px;
+        width: 40%;
+    }
+    &__form{
+        
+        @include center();
+        width: 95%;
+    }
+    &__fieldset{
+        @include center()
+        
+    }
+    &__legend{
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 5px;
+       
+    }
+    &input{
+        color: rgb(0, 0, 0);
+    
+    }
+    &__a{
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        padding: 10px;
+        transition: 1s;
+        &:hover{
+            color: rgb(230, 0, 255) ;
+        }
+    }
+    &__input{
+        padding: 4px;
+        transition: 1s;
+        font-size: 20px;
+        &:hover{
+            transform: scale(1.1);
+            color: rgb(230, 0, 255)  ;
+        }
+    }
+}    
+

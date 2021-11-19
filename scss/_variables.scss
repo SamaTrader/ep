@@ -1,0 +1,36 @@
+$bg_oscuro: rgb(17, 0, 10);
+$bg_violeta: rgb(95, 1, 95);
+$bg_medio: rgb(38, 1, 30);
+
+
+@mixin center {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin header {
+    color: rgb(255, 255, 255);
+    position: relative;
+   width: 100%;
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   text-align: center;
+   padding-top: 5vh;
+    
+}
+@mixin h1 {
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 46px;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+   width: 35%;
+   background-color: $bg_medio;
+   border-radius: 10px;
+    
+}

@@ -1,0 +1,7 @@
+.header-registro{
+    @include header();
+
+    &__h1{
+        @include h1();
+    }
+}

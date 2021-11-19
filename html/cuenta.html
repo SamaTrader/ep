@@ -6,33 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ingresa a tu cuenta para organizar tus salidas">
     <meta name="keywords" content="SALIR, AMIGOS, FIESTA, BOLICHE, BAR, PREVIA, GENTE, EN LA PERA, INICIAR SESION">
-    <link rel="stylesheet" href="/css/cuentaestilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/ico">
     <title>Inicia Sesion</title>
-</head>
-    <header>
-        <h1>Inicia sesion </h1>
+    </head>
+    <header class="header-cuenta">
+        <h1 class="header-cuenta__h1">Inicia  Sesión </h1>
     </header>
-<body>
-    <main>
-        <div>
-            <form action="">
-                <fieldset>
-                    <legend>Ingresa con tu nombre de usuario o tu email</legend>
+
+<body class="bodycuenta">
+    <main class="main-cuenta">
+        <div class="main-cuenta__div">
+            <form   class="main-cuenta__form" action="">
+                <fieldset class="main-cuenta__fieldset">
+                    <legend class="main-cuenta__legend">Ingresa con tu nombre de usuario o tu email</legend>
                     <label for="nombre de usuario o email" aria-required="true"></label>
                     <input type="text" placeholder="usuario o email">
-                    <br><br>
+                    <br>
                     <label for="contraseña"></label>
                     <input type="password" placeholder="contraseña">
-                    <br><br>
-                    <input type="submit"value="Iniciar sesion">
-                  
+                    <br>
+                    <input class="main-cuenta__input" type="submit"value="Iniciar sesión">
+                    <br>
 
                 </fieldset>
             </form>
-            <h4>¿No tenes cuenta? <a href="registrate.html"> ¡Registrate!</a></h4>
+            <h4 class="main-cuenta__h4">¿No tenés cuenta? <a class="main-cuenta__a" href="registrate.html"> ¡Registráte!</a></h4>
         </div>
         
     </main>
     
+
+
+
+
+    <footer class="footer-cuenta">
+      <div class="footer-cuenta__div">
+        <h5 class="footer-cuenta__h5"    >¿Tenes una consulta?  <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            ¡Contactanos!
+          </a> </h5>
+         
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contactanos</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <div id="after_submit"></div>
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                  <div class="row">
+                    <label class="required" for="name">Nombre:</label><br/>
+                    <input id="name" class="input" name="name" type="text" value="" size="30"/><br/>
+                    
+                  </div>
+                  <div class="row">
+                    <label class="required" for="name">Teléfono</label><br/>
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                   
+                  </div>
+                  <div class="row">
+                    <label class="required" for="email">Email:</label><br/>
+                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                   
+                  </div>
+                  <div class="row">
+                    <label class="required" for="message">Mensaje</label><br/>
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                    
+                  </div>
+                    
+                    <input id="submit_button" type="submit" value="Enviar"/>
+                </form>
+              </div>
+              <div class="dropdown mt-3">
+               
+              </div>
+            </div>
+          </div>
+            </div>
+    </footer>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
+
 </html>
