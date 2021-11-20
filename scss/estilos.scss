@@ -12,18 +12,9 @@
 
 
 
-@import"tycheader";
 
-@mixin sec {
-  display: block;
-  margin: 1px 1px 1px 1px;
-  border: solid 1px rgb(0, 0, 0);
-  line-height: 1.6;
-  border-radius: 10px;
-  background-color: $bg_medio;
-  justify-content: left;
-  color: white;
-}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -192,7 +183,7 @@ background-color: $bg_medio;
   
     &__legend{
         
-        font-size: 11px;
+        font-size: 13px;
         
     }
   
@@ -213,8 +204,63 @@ background-color: $bg_medio;
         width: 40%;
        
     }
-
+}
+    .bodyregistro{
+   
+        background-position: center;
+     
+     }
+     
+       .header-registro{
+       
+         &__h1{
+           
+           font-size: 30px;
+           
+          width: 86%;
+       
+         }
+       }
+     
+       .main-registro{
+         
+         &__sec{
+            
+             width: 100%;
+         }
+       
+         &__legend{
+             
+             font-size: 13px;
+             
+         }
+         &__radio{
+             display: flex;
+             align-content: center;
+             width: 85%;
+         }
+         &__label{
+            font-size: 19px;
+         }
+       
+         &__a{
+             
+             font-size: 18px;
+             word-spacing: 3px;
+             letter-spacing: 3px;
+             &:hover{
+                 color: rgb(230, 0, 255) ;
+             }
+     
+         }
     
+         &__input{
+            
+           
+             width: 40%;
+            
+         }
+     
 
 
 
@@ -233,7 +279,8 @@ background-color: $bg_medio;
 
    }
  }
-  
+
+   }
 @media only screen and (min-width: 750px) and (max-width: 1020px){
   
   .bodycuenta{
@@ -283,14 +330,29 @@ background-color: $bg_medio;
          width: 40%;
         
      }
- 
+ }
+     .header-registro{
+       
+        &__h1{
+          
+          font-size: 35px;
+          
+         width: 44%;
+      
+        }
+      }
+      .main-registro{
+         
+        &__sec{
+           
+            width: 60%;
+        }
+
+}
 
 
 
-
-
-
-    
+}
   .main-index{
       
     display: flex;
@@ -298,9 +360,9 @@ background-color: $bg_medio;
 
   }
 
-}
 
 
+ 
 
   .card{
       background-color: $bg_medio;
@@ -338,5 +400,5 @@ background-color: $bg_medio;
 .carousel-control-prev{
   padding-top: 16vh;
 }
-  }
-  }
+ 
+ 

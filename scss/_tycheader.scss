@@ -1,9 +1,0 @@
-.header-tyc{
-    @include header();
-
-    &__h1{
-        width: 51%;
-        @include h1();
-    }
-}
-
