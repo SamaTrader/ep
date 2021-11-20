@@ -1,7 +1,10 @@
+@import"variables";
 .header-registro{
+  
     @include header();
-
+  
     &__h1{
+        width: 33%;
         @include h1();
     }
-}
+    }

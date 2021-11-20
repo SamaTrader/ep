@@ -10,7 +10,7 @@ $bg_medio: rgb(38, 1, 30);
 }
 
 @mixin header {
-    color: rgb(255, 255, 255);
+   
     position: relative;
    width: 100%;
    
@@ -22,6 +22,7 @@ $bg_medio: rgb(38, 1, 30);
     
 }
 @mixin h1 {
+    color: white;
     letter-spacing: 4px;
     word-spacing: 3px;
     font-style: italic;
@@ -29,8 +30,34 @@ $bg_medio: rgb(38, 1, 30);
     font-size: 46px;
     font-family: 'Russo One', sans-serif;
     text-decoration: underline;
-   width: 35%;
+   
    background-color: $bg_medio;
    border-radius: 10px;
     
 }
+
+
+
+@mixin input {
+   
+        border-radius: 7px;
+        padding: 4px;
+        transition: 1s;
+        font-size: 15px;
+        &:hover{
+            transform: scale(1.1);
+            color: rgb(230, 0, 255)  ;
+        }
+    
+}
+
+@mixin sec {
+    display: block;
+    margin: 1px 1px 1px 1px;
+    border: solid 1px rgb(0, 0, 0);
+    line-height: 1.6;
+    border-radius: 10px;
+    background-color: $bg_medio;
+    justify-content: left;
+    color: white;
+  }

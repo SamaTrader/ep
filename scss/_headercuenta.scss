@@ -5,6 +5,7 @@
   @include header();
 
   &__h1{
+    width: 29%;
       @include h1();
   }
   }

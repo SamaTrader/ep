@@ -1,17 +1,18 @@
 @import"variables";
-    
 
-.bodycuenta{
+
+
+.bodyregistro{
    
-    background-image: url(/img/fondo.jpg);
+    background-image: url(/img/fiesta2.jpg);
     background-repeat: no-repeat;
    
  background-size: cover;
 }
 
-.main-cuenta{
+.main-registro{
     @include center();
-    &__div{
+    &__sec{
         color: white;
         margin-top: 8vh;
         background-color: $bg_medio;
@@ -19,35 +20,45 @@
         border-radius: 10px;
         width: 40%;
     }
-   
     &__form{
         
         @include center();
-        width: 95%;
+       
     }
     &__fieldset{
-        @include center()
+        @include center();
         
     }
     &__legend{
+        @include center();
         text-transform: uppercase;
         font-size: 20px;
         padding: 5px;
        
     }
-   
+    &__radio{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__label{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+ 
     &__a{
         color: rgb(255, 255, 255);
         text-decoration: underline;
-        padding: 10px;
+        padding-right: 5px;
         transition: 1s;
         &:hover{
             color: rgb(230, 0, 255) ;
         }
     }
     &__input{
-        text-transform: uppercase;
+        
         @include input();
         } 
-}    
 
+}

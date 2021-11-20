@@ -2,80 +2,8 @@
     @include header();
 
     &__h1{
+        width: 51%;
         @include h1();
     }
 }
-
-
-*{
-    font-family: 'Source Code Pro', monospace;
-    border: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    
-}
-body{background-image: linear-gradient( rgb(17, 0, 10), rgb(95, 1, 95)) ;
-
-    height: 93vh;
-    }
-h1{
-    text-align: center;
-    color: blanchedalmond;
-  letter-spacing: 4px;
-  word-spacing: 3px;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 50px;
-  font-family: 'Russo One', sans-serif;
-  text-decoration: underline;
-}
-p{
-    color: blanchedalmond;
-}
-
-h3{
-    color: blanchedalmond;
-}
-    
-    
-
-.grid{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    
-    column-gap: 20px;
-    row-gap: 10px;
-    align-items: center;
-    justify-items: center; 
-    grid-template-areas: 
-    "tyc sn"
-    "info info2"
-    ;
-
-    
-}
-.g1{
-    
-    grid-area: "tyc";
-    
-}
-
-
-.g2{
-    
-    grid-area: "info";
-}
-
-.g3{
-
-grid-area: "sn";
-}
-
-.g4{
-   
-    grid-area: "info2";
-}
-  
-
 

@@ -1,0 +1,30 @@
+.offcanvas{
+    &-title{
+    color: white;
+    }
+    &-form{
+    @include center();
+    
+    }
+    &-row{
+    width: 90%;
+    
+    }
+
+    &-input{
+    margin-top: 1vh;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 20%;
+    transition: 1s;
+    &:hover{
+        transform: scale(1.1);
+        color: rgb(230, 0, 255) 
+    }
+    }
+}
+
+
+
+
+
