@@ -1,4 +1,60 @@
 @import"variables";
 
 
+.header-index{  
+    color: rgb(255, 255, 255);
+     position: relative;
+    width: 100%;
+   
+    @include center();
+    
 
+    
+    &__h1{
+      letter-spacing: 4px;
+      word-spacing: 3px;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 50px;
+      font-family: 'Russo One', sans-serif;
+      text-decoration: underline;
+      
+     
+    }
+    &__div{
+        
+        width: 80%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    &__h4{
+        transition: 1s;
+        &:hover{
+            
+            color: $bg_rosa;
+        }
+    }
+ &__container{
+      background-color: $bg_medio;
+      width: 35%;
+      border-radius: 10%;
+      border: solid 1px $bg_violeta;
+      @include center();   
+
+  }
+
+  }
+
+ 
+
+
+  a{
+      color: white;
+      text-decoration: none;
+      transition: 1s;
+      &:hover{
+          color: $bg_rosa;
+          text-decoration: underline;
+      }
+  }

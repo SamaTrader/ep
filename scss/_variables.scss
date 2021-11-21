@@ -1,6 +1,7 @@
 $bg_oscuro: rgb(17, 0, 10);
 $bg_violeta: rgb(95, 1, 95);
 $bg_medio: rgb(38, 1, 30);
+$bg_rosa: rgb(230, 0, 255);
 
 
 @mixin center {
@@ -54,10 +55,12 @@ $bg_medio: rgb(38, 1, 30);
 @mixin sec {
     display: block;
     margin: 1px 1px 1px 1px;
-    border: solid 1px rgb(0, 0, 0);
+    border: solid 1px $bg_violeta;
     line-height: 1.6;
     border-radius: 10px;
     background-color: $bg_medio;
-    justify-content: left;
     color: white;
+    height: 200vh;
+    width: 80%;
+    @include center();
   }

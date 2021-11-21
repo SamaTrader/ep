@@ -1,0 +1,171 @@
+@import"variables";
+
+.body-index{ 
+    background-image: url(/img/estrellas.jpg); 
+    background-size: 30rem;}
+    
+
+.section-index{
+  @include sec();
+  
+  &__data{
+    @include center();
+  }
+  &__after{
+    object-fit: cover;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+    img{
+      object-fit: cover;
+     
+      }
+    
+    
+    .carousel{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      height: 200vh;
+      text-align: start;
+    }
+    
+    .carousel-inner{
+     
+      width: 80%;
+    }
+    .carousel-item.active{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    
+    }
+    
+    
+    
+    .offcanvas-header{
+    background-color: $bg_medio;
+    }
+    .offcanvas-body{
+    
+      background-color: $bg_medio;
+      color: beige;
+    }
+    .offcanvas-body2{
+      height: 1vh;
+      background-color: $bg_medio;
+      
+    }
+    .textarea{
+      background-color: $bg_medio;
+      color: white;
+    }
+    .creador{
+      background-image: url(/img/fiesta2.jpg);
+      background-repeat: no-repeat;
+     background-position-y: center;
+     background-size: cover;
+      text-align: start;
+      padding-left: 3vh;
+    }
+    .sec{
+     
+      @include sec
+    }
+ 
+     .section1-index{ line-height: 0.9;
+        
+        
+       
+       
+        
+        
+        
+        }
+    
+      
+        
+      .section2-index{
+       
+        padding-top: 10px;
+       grid-area: "s2";
+        
+      }
+    
+     .section2b-index{
+       grid-area: "s2b";
+    
+     }
+      
+      .section3-index{
+        padding-left: 10px;
+        grid-area: "s3";
+      }
+    
+      
+      
+    
+      .section5-index{
+      
+      padding-left: 100px;
+      text-transform: uppercase;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+      .card{
+          background-color: $bg_medio;
+          width: 90%;
+          
+          
+         }
+    .joda :hover{
+      transform: scale(135%, 135%);
+    }
+    .info1{
+      display: flex;
+    }
+    .after1{
+      width: 20%;
+    }
+    .after1:hover{
+      transform: scale(1.5);
+      transition: 1s;
+      
+    
+    }
+    
+    .data{
+      width: 30%;
+      height: 25vh;
+    }
+    .after{
+      width: 30%;
+      height: 25vh;
+    }
+    
+    
+    
+    .carousel-control-prev{
+      padding-top: 16vh;
+    }
+      

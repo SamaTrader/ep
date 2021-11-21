@@ -1,5 +1,5 @@
 @import"headerregistro";
-@import"headerindex";
+
 @import"variables";
 @import"headercuenta";
 @import"bodycuenta";
@@ -8,9 +8,10 @@
 @import"footerregistro";
 @import"contacto";
 
+
+@import"headerindex";
+@import"bodyindex";
 @import"responsive";
-
-
 
 
 
@@ -21,181 +22,5 @@
     box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
   }
-.body{background-image: linear-gradient( $bg_oscuro, $bg_violeta) ;}
 
-img{
-  object-fit: cover;
- 
-  }
-
-
-.carousel{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  height: 400vh;
-  text-align: start;
-}
-
-.carousel-inner{
- 
-  width: 80%;
-}
-.carousel-item.active{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-
-}
-
-.header-index{
-  color: rgb(255, 255, 255);
-   position: relative;
-  width: 100%;
-  background: $bg_medio;
-  display: block;
-  text-align: center;
-  
-  .header-index__h1{
-    letter-spacing: 4px;
-    word-spacing: 3px;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 50px;
-    font-family: 'Russo One', sans-serif;
-    text-decoration: underline;
-    
-   
-  }
-}
-
-
-.offcanvas-header{
-background-color: $bg_medio;
-}
-.offcanvas-body{
-
-  background-color: $bg_medio;
-  color: beige;
-}
-.offcanvas-body2{
-  height: 1vh;
-  background-color: $bg_medio;
-  
-}
-.textarea{
-  background-color: $bg_medio;
-  color: white;
-}
-.creador{
-  background-image: url(/img/fiesta2.jpg);
-  background-repeat: no-repeat;
- background-position-y: center;
- background-size: cover;
-  text-align: start;
-  padding-left: 3vh;
-}
-.sec{
- 
-  @include sec
-}
-.s4ec:hover{
-  transform: scale(135%,135%);
-  transition: 1s;
-  
-}
- .section1-index{ line-height: 0.9;
-    
-    
-   
-   
-    
-    
-    
-    }
-
-  
-    
-  .section2-index{
-   
-    padding-top: 10px;
-   grid-area: "s2";
-    
-  }
-
- .section2b-index{
-   grid-area: "s2b";
-
- }
-  
-  .section3-index{
-    padding-left: 10px;
-    grid-area: "s3";
-  }
-
-  .section4-index{
-    text-align: center;
-    &:hrover{
-      transform: scale(135%, 135%) translate(-200px, -15px);
-    }
-  }
-
-  .section5-index{
-  
-  padding-left: 100px;
-  text-transform: uppercase;
-  }
-
-  a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
-
-
-
-
-
-
- 
-
-  .card{
-      background-color: $bg_medio;
-      width: 90%;
-      
-      
-     }
-.joda :hover{
-  transform: scale(135%, 135%);
-}
-.info1{
-  display: flex;
-}
-.after1{
-  width: 20%;
-}
-.after1:hover{
-  transform: scale(1.5);
-  transition: 1s;
-  
-
-}
-
-.data{
-  width: 30%;
-  height: 25vh;
-}
-.after{
-  width: 30%;
-  height: 25vh;
-}
-
-
-
-.carousel-control-prev{
-  padding-top: 16vh;
-}
- 
  
