@@ -1,0 +1,20 @@
+@import"variables";
+
+.footer-index{
+    position: sticky;
+    
+
+    border: solid 2px $bg_medio;
+    border-radius: 7px;
+
+    background-color: $bg_oscuro;
+    
+    &__img{
+        border-radius: 3px;
+        width: 3%;
+    }
+    &__h4{
+        margin-left: 1rem;
+        color: white;
+    }
+}

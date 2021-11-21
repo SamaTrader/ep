@@ -53,14 +53,14 @@ $bg_rosa: rgb(230, 0, 255);
 }
 
 @mixin sec {
-    
+    overflow-y: scroll ;
     margin: 1px 1px 1px 1px;
     border: solid 2px $bg_medio;
     line-height: 1.1;
     border-radius: 10px;
     background-color: $bg_oscuro;
     color: white;
-    height: 200vh;
+    height: 150vh;
     width: 80%;
     
   }
