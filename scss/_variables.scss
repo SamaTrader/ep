@@ -53,14 +53,14 @@ $bg_rosa: rgb(230, 0, 255);
 }
 
 @mixin sec {
-    display: block;
+    
     margin: 1px 1px 1px 1px;
-    border: solid 1px $bg_violeta;
-    line-height: 1.6;
+    border: solid 2px $bg_medio;
+    line-height: 1.1;
     border-radius: 10px;
-    background-color: $bg_medio;
+    background-color: $bg_oscuro;
     color: white;
     height: 200vh;
     width: 80%;
-    @include center();
+    
   }

@@ -21,7 +21,7 @@
       <div class="header-index__container">
     <h1 class="header-index__h1">En la Pera</h1>
    
-    <h4 ><em> <a href="">¡Busca tu salida!</a> </em></h4>
+    <h4 ><em> <a href="#principal">¡Busca tu salida!</a> </em></h4>
        <div class="header-index__div">
     <h4 class="header-index__h4"  ><a href="/html/cuenta.html" target="blank">  Inicia  sesión</a> </h4> <h4 class="header-index__h4a"  ><a href="/html/registrate.html" target="blank"> Registrate</a></h4>
        </div>
@@ -121,7 +121,7 @@
         
 
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -131,16 +131,17 @@
          
       
           <div class="carousel-item active">
-             <section class="section-index">
+             <section  id="principal" class="section-index">
                 
-                   
-                        <a class="main-index__data" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            <img src="img/after.jpg" class="section-index__after" class="skew" width="25%"alt="publicacion" />
+                   <div class="section-index__data">
+                        <a  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <img src="img/after.jpg" class="section-index__after"  width="25%"alt="publicacion" />
+                            +info
                         </a>
                         
-                    
+                    </div>
                       <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
+                        <div class="section-index__card">
                           <p>
                      INFO: se pica por el campitoo, sin miedo que no va a pinchar, coimeamos a la gorra</p>
                    
@@ -154,38 +155,71 @@
                         HORARIO:18:00-2:00hs</p>
                     <p> 
                         ORGANIZA: @Papacho_FC</p> 
-                        </div>
-                       
-                   
-                     
-
-                    
-             
-                    
+                        </div> 
                 </div>
+
+                <div class="section-index__data">
+                  <a  data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      <img src="img/joda.jpg" class="section-index__after"  width="25%"alt="publicacion" />
+                      +info
+                  </a>
+                  </div>
+                  <div class="collapse" id="collapseExample2">
+                    <div class="section-index__card">
+                      <p>
+                        INFO: jodita en lo de lautaa, TIENEN QUE ESTAR EN LA LISTA PARA PASAR
+                      </p>
+                  <P>
+                       UBICACION: Buenos aires 2867, olivos</P>
+                  <p>
+                       ENTRADA: se pasa con escabio y mezcla</p>
+                  <p>
+                    ESTIMADO DE GENTE:60-80 </p>
+                  <P>
+                    DIA:27/8  </P>
+                  <p>
+                       HORARIO:12:30-5:30 (se pasa antes de las 2:00)</p>
+                  <p>
+                       ORGANIZA:@lautamunauno</p>
+              </div>
+
+
+
+
+
+                
                </section>
           </div>
           <div class="carousel-item">
-          <section class="section-index">
+          <section class="section2-index">
           
               
-           <h3>Likes Recibidos</h3>
+           <h3 class="section2-index__h3">Likes Recibidos</h3>
             
-            <div>
+            <div class="section2-index__a">
                     <img src="img/likes.jpg"  class="focus"  alt="perfil" width="200" />
-            </div>
-                    <a href="#redelafter">@redelafter</a>
-                  
-               
+            
+                    <a href="https://www.instagram.com/" target="blank">@redelafter</a>
+           </div>
+               <div class="section2-index__b">
                     <img src="img/likes2.jpg" alt="perfil" width="200"/>
                
-                    <a href="#">@nahime_fc</a>
-                
+                    <a href="https://www.instagram.com/" target="blank">@nahime_fc</a>
+                </div>
                    
-               
+               <div class="section2-index__c">
                     <img src="img/likes3.jpg" alt="perfil" width="200"/>
-               
-                <a href="#">@elpreee</a>
+
+                <a href="https://www.instagram.com/" target="blank">@elpreee</a>
+                </div>
+
+              <div class="section2-index__d">
+                    <img src="/img/likes4.jpg" width="200" alt="perfil">
+              <a href="https://www.instagram.com/" target="blank">@todas</a>
+
+</div>
+
+
               </section>
                     </div>
          
@@ -268,8 +302,10 @@
         </main>  
    
    
-        
+        <script>
 
+
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
 </body>            

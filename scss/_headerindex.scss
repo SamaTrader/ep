@@ -36,10 +36,10 @@
         }
     }
  &__container{
-      background-color: $bg_medio;
+      background-color: $bg_oscuro;
       width: 35%;
       border-radius: 10%;
-      border: solid 1px $bg_violeta;
+      border: solid 2px $bg_medio;
       @include center();   
 
   }
