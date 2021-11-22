@@ -15,7 +15,7 @@
   &__after{
     padding-top: 2vh;
     object-fit: cover;
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,13 +65,13 @@
 .section2-index{
   @include sec();
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: (2fr,1fr);
   grid-template-rows: repeat(3,1fr);
   
   grid-template-areas:
-   "h1"
-   "a b"
-   " c d"
+   "h1 h1 "
+   "aa bb"
+   "cc dd"
   ;
   
 
@@ -82,16 +82,16 @@
     grid-column-end: 4;
   }
   &__a{
-    grid-area: "a";
+    grid-area: "aa";
   }
   &__b{
-    grid-area: "b";
+    grid-area: "bb";
   }
   &__c{
-    grid-area: "c";
+    grid-area: "cc";
   }
   &__d{
-    grid-area: "d";
+    grid-area: "dd";
   }
 
 
@@ -110,13 +110,18 @@
       position: relative;
       width: 100%;
       height: 150vh;
-      text-align: start;
+     
 
         &-item.active{
           @include center();
       
       }
-
+      &-control-prev{
+        position: fixed;
+      }
+      &-control-next{
+        position: fixed;
+      }
 
 
     }
@@ -126,32 +131,7 @@
     
     
     
-    .offcanvas-header{
-    background-color: $bg_medio;
-    }
-    .offcanvas-body{
     
-      background-color: $bg_medio;
-      color: beige;
-    }
-    .offcanvas-body2{
-      height: 1vh;
-      background-color: $bg_medio;
-      
-    }
-    .textarea{
-      background-color: $bg_medio;
-      color: white;
-    }
-    .creador{
-      background-image: url(/img/fiesta2.jpg);
-      background-repeat: no-repeat;
-     background-position-y: center;
-     background-size: cover;
-      text-align: start;
-      padding-left: 3vh;
-    }
-   
  
     
     

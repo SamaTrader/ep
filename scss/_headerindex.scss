@@ -30,10 +30,7 @@
     }
     &__h4{
         transition: 1s;
-        &:hover{
-            
-            color: $bg_rosa;
-        }
+     
     }
  &__container{
       background-color: $bg_oscuro;
@@ -58,3 +55,37 @@
           text-decoration: underline;
       }
   }
+
+
+.offcanvas{
+    &-header{
+    background-color: $bg_medio;
+    }
+
+    &.show{
+       width: 50%; 
+    }
+    &-body{
+    @include center();
+      background-color: $bg_medio;
+      color: beige;
+    }
+    &-creador{
+        background-image: url(/img/fiesta2.jpg);
+        background-repeat: no-repeat;
+       background-position-y: center;
+       background-size: cover;
+        text-align: start;
+        padding-left: 3vh;
+
+      }
+      &-textarea{
+        background-color: $bg_medio;
+        color: white;
+      }
+      
+}
+
+ 
+    
+   
