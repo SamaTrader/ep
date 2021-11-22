@@ -67,11 +67,7 @@
   grid-template-columns: (2fr,1fr);
   grid-template-rows: repeat(3,1fr);
   
-  grid-template-areas:
-   "h1 h1 "
-   "aa bb"
-   "cc dd"
-  ;
+
   
 
   &__h3{
@@ -79,25 +75,13 @@
     grid-area: "h1";
     grid-column-start: 1;
     grid-column-end: 4;
-  }
-  &__a{
-    grid-area: "aa";
-  }
-  &__b{
-    grid-area: "bb";
-  }
-  &__c{
-    grid-area: "cc";
-  }
-  &__d{
-    grid-area: "dd";
-  }
+ 
 
 
 
 }
 
-
+}
 
 
 
@@ -106,7 +90,7 @@
     .carousel{
       @include center();
       
-      position: relative;
+      
       width: 100%;
       height: 10%;
      
@@ -126,31 +110,5 @@
 
     }
     
-    
-   
-    
-    
-    
-    
- 
-    
-    
-      
-
-    
-    
-    
-    
-    
-    
-    
-    
-     
-    
-     
   
- 
-  
-    
-    
    

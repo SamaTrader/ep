@@ -154,7 +154,7 @@
 
          &__table{
            width: 90%;
-           height: 20%;
+           height: 50%;
            font-size: 14px;
          }
 
@@ -164,35 +164,12 @@
       .section2-index{
         height: 74vh;
         
-        display: grid;
-        grid-template-columns: (2fr,1fr);
-        grid-template-rows: repeat(3,1fr);
-        
-        grid-template-areas:
-         "h1 h1 "
-         "aa bb"
-         "cc dd"
-        ;
+        display: flex;
+        flex-direction: column;
         
       
-        &__h3{
-          
-          grid-area: "h1";
-          grid-column-start: 1;
-          grid-column-end: 4;
-        }
-        &__a{
-          grid-area: "aa";
-        }
-        &__b{
-          grid-area: "bb";
-        }
-        &__c{
-          grid-area: "cc";
-        }
-        &__d{
-          grid-area: "dd";
-        }
+       
+       
       }
       
 
