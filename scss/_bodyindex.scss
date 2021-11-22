@@ -4,8 +4,7 @@
     background-image: url(/img/estrellas.jpg); 
     flex-wrap: wrap;
     background-size: 30rem;}
-    
-
+   
 .section-index{
   @include sec();
  display: flex;
@@ -15,7 +14,7 @@
   &__after{
     padding-top: 2vh;
     object-fit: cover;
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +48,7 @@
 
    &__table{
      width: 90%;
-     height: 40%
+     height: 60%
    }
    &__th{
      padding-left: 1rem;
@@ -109,11 +108,12 @@
       
       position: relative;
       width: 100%;
-      height: 150vh;
+      height: 10%;
      
 
         &-item.active{
           @include center();
+          
       
       }
       &-control-prev{

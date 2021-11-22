@@ -134,6 +134,7 @@
           
       
       .section-index{
+        height: 74vh;
         width: 80%;
         &__after{
           width: 60%;
@@ -161,7 +162,8 @@
       
       
       .section2-index{
-        @include sec();
+        height: 74vh;
+        
         display: grid;
         grid-template-columns: (2fr,1fr);
         grid-template-rows: repeat(3,1fr);
@@ -311,6 +313,7 @@
   
 
 .section-index{
+  overflow-y: scroll ;
 width: 80%;
 &__after{
   width: 50%;
