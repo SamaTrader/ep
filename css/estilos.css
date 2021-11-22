@@ -485,7 +485,7 @@ a:hover {
   transition: 1s;
 }
 
-.section-index__after:hover {
+.section-index__after:focus {
   -webkit-transform: scale(1.5) translate(100px, 20px);
           transform: scale(1.5) translate(100px, 20px);
 }

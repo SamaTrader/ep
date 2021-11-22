@@ -19,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     transition: 1s;
-    &:hover{
+    &:focus{
       transform: scale(1.5) translate(100px, 20px);
       
     }
